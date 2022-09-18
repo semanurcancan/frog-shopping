@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.user{
+    @apply h-screen w-full lg:flex bg-green-50
+}
+.userContainer{
+    @apply grid grid-cols-3 grid-flow-row
+}
