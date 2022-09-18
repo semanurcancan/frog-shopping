@@ -28,5 +28,5 @@ npm run start
 - chartJs
 ```
 
-#### GAME LINK
-[BUDGET APP](https://budget-app-gray.vercel.app/)
+#### APP LINK
+[frogShopping](https://frog-shopping.vercel.app/)
