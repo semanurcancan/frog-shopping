@@ -9,8 +9,7 @@ export class User extends Component {
       <div className="user">
       <Dashboard />
       <div className="userContainer"> müşteri verileri , listesi.vs
-      <div>semanur</div>
-      <div>engin</div>
+     
       </div>
   
     </div>
