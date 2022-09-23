@@ -4,7 +4,8 @@
 
 
 .dashboard {
-    @apply p-2.5 border-r-4 border-green-100 w-screen h-28 bg-emerald-100 shadow-lg shadow-emerald-200 sm:h-24 sm:flex sm:items-center sm:justify-between lg:block lg:w-36 lg:h-full
+    @apply p-2.5 border-r-4 border-green-100 w-screen h-28 bg-emerald-100 shadow-lg shadow-emerald-200 
+    sm:h-24 sm:flex sm:items-center sm:justify-between lg:block lg:w-36 lg:h-full
 }
 
 .D-title {
@@ -12,7 +13,9 @@
 }
 
 .Link {
-    @apply text-green-900 grid grid-cols-4 grid-flow-row sm:flex sm:justify-end md:flex md:justify-end md:mt-5 lg:inline-table
+    @apply text-green-800 grid grid-cols-4 grid-flow-row 
+    
+     md:flex md:justify-end md:mt-5 lg:inline-table
 }
 
 .link {
@@ -20,7 +23,7 @@
 }
 
 .frog-das {
-    @apply h-8 w-8 sm: inline-flex sm:h-7 sm:w-7 md:h-8 md:w-8 md:mt-2 lg:h-10 lg:w-10 lg:m-auto
+    @apply h-8 w-8 sm:inline-flex sm:h-7 sm:w-7 md:h-8 md:w-8 md:mt-2 lg:h-10 lg:w-10 lg:m-auto
 }
 
 .frog-title {
