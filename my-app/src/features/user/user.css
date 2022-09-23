@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.user {
+    @apply h-screen w-full lg:flex bg-green-50
+}
+
+.userContainer {
+    @apply block mt-10 ml-4 
+}
+
+.userList {
+    @apply items-center  w-full p-5 m-3  border-2 border-emerald-200/50 shadow-xl shadow-emerald-200/50 rounded-md relative duration-500
+    grid grid-cols-1 grid-flow-row
+    lg:justify-evenly  lg:grid lg:grid-cols-4 lg:h-12
+}
+
+.userList:hover {
+    @apply border-slate-200 shadow-gray-300
+}

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.allpage {
+    @apply flex text-center text-gray-800 justify-around bg-emerald-50 bg-repeat h-screen
+}
+
+.login {
+    @apply border-4 border-green-100 shadow-xl shadow-green-300 text-xl w-[32rem] h-[32rem] mt-32 box-content grid grid-cols-2 
+}
+
+.frog {
+    @apply h-10 w-10 m-auto
+}

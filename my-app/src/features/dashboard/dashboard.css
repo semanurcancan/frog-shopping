@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dashboard{
+    @apply  p-2.5 border-r-4 border-green-100 w-screen h-28 bg-emerald-100 shadow-lg shadow-emerald-200 
+     sm:h-24 sm:flex sm:items-center sm:justify-between	
+     lg:block	
+   
+    sm:bg-red-200 md:bg-blue-100 lg:bg-yellow-200
+    
+     
+    lg:w-36 lg:h-full
+}   
+.D-title{
+    @apply bg-green-100 bg-gradient-to-r from-green-500 to-violet-500  flex justify-center p-3 text-sm
+    sm:p-3 sm:text-sm sm:font-extrabold bg-clip-text text-transparent 
+    md:p-5 md:text-base
+    lg:text-lg lg:p-1 lg:my-3
+  
+
+}
+
+.Link{
+    @apply  text-green-900 grid grid-cols-4 grid-flow-row
+    sm:flex sm:justify-end	
+     md:flex md:justify-end	md:mt-5
+     lg:inline-table
+}
+.link{
+    @apply  flex text-center text-sm
+    lg:text-lg
+    sm:mr-3 md:mr-5 lg:mb-8
+}
+
+.frog-das{
+     @apply   h-8 w-8
+     sm:inline-flex sm:h-7 sm:w-7 
+     md:h-8 md:w-8 md:mt-2
+     lg:h-10 lg:w-10 lg:m-auto
+}
+.frog-title{
+    @apply flex md:float-left 
+    lg:flex-col	lg:mt-5
+   
+}

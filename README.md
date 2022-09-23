@@ -1,3 +1,11 @@
+# Week - 5
+```Bitirme Ödevi```
+
+## Author
+
+```Semanur CAN```
+
+
 ### FROG SHOPPING
 ![frogGif](https://github.com/Kodluyoruz-Gaziantep-Front-End-Bootcamp/bitirme-odevi-semanurcancan/blob/main/FROGSHOP.gif
 )
@@ -30,3 +38,7 @@ npm run start
 
 #### APP LINK
 [frogShopping](https://frog-shopping.vercel.app/)
+
+
+
+
