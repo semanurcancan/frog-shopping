@@ -6,8 +6,6 @@ import Dashboard from '../dashboard/Dashboard'
 import Doughnutt from "../chart/DoughnutChart";
 import SwiperLine from "./footer";
 import VerticalChart from "../chart/VerticalChart";
-import { Bar } from "react-chartjs-2";
-import BarChart from "../chart/BarChart";
 
 function Home(props) {
     const [dateType, setDateType]=useState(0)

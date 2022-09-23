@@ -26,7 +26,7 @@ function ProductAdmin() {
           <Link to={`/productsAdd`}>
             <button className=' bg-green-100 bg-gradient-to-r from-green-500 to-violet-500  text-center p-3 mt-10 text-xl
               bg-clip-text text-transparent'>
-                <span className='border-2 rounded-lg border-emerald-100 '>Add to  New Product</span>
+                <span className=''>Add to  New Product</span>
               
             </button>
           </Link>
@@ -42,7 +42,7 @@ function ProductAdmin() {
                     <div className='flex flex-wrap justify-center'>
                       <div className='w-1/2 sm:w-4/12 '>
                         <Link to={`/products/${value.id}`}>
-                          <img className='shadow-lg rounded-full max-w-full h-auto align-middle border-none' src={value.img} width={75} alt='1.resim' />
+                          <img className='shadow-lg rounded-full max-w-full h-auto align-middle border-none' src={value.img} width={50} alt='1.resim' />
                         </Link>
                       </div>
                     </div>

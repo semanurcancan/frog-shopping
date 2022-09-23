@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 .productCard{
-    @apply   border-2  p-4 relative rounded-2xl	duration-500 h-auto w-48 font-extralight text-sm  inline-block
+    @apply bg-gray-50  border-2 border-green-200/50  p-4 relative rounded-2xl	duration-500 h-auto w-48 font-extralight text-sm  inline-block
+shadow-xl
 }
 
+
 .productCard:hover{
-    @apply border-slate-200	shadow-gray-600	
+    @apply border-blue-200	shadow-emerald-200/50	
 }
 
 .cardIMG{
@@ -15,7 +17,8 @@
 }
 
 .ProductDetail{
-    @apply bg-gray-100 border-4 border-green-100  relative rounded-2xl	duration-500 sm:p-20  sm:h-auto sm:w-auto font-extralight text-lg inline-block
+    @apply bg-gray-50 border-4 border-green-200/25  relative rounded-2xl	duration-500 sm:p-20  sm:h-auto sm:w-auto font-extralight text-lg inline-block
+shadow-2xl
 }
 .cardHeader2{
     @apply flex justify-between
@@ -36,7 +39,7 @@
     @apply h-full w-full lg:flex bg-green-50 
 }
 .admin-product{
-    @apply w-full h-full bg-green-50  grid grid-cols-1 grid-flow-row 
+    @apply w-screen h-full bg-green-50  grid grid-cols-1 grid-flow-row 
 }
 
 .productAddContainer{
@@ -44,24 +47,30 @@
     lg:flex
 }
 .product-list{
-    @apply  border-2  border-emerald-50/75 mt-10 mb-20 shadow-inner
+    @apply  contents mt-10 mb-20 shadow-inner space-y-5
     
      md:w-3/4 md:ml-20
      xl:w-4/5 xl:mt-14
 }
 
+
+
 .settingsList{
-    @apply   justify-evenly	items-end	grid grid-cols-6 h-28
+    @apply   justify-evenly	items-center grid grid-cols-6 h-20 border-2 border-emerald-200/50 w-screen
+    shadow-xl shadow-emerald-200/50 rounded-xl relative duration-500
 }
+.settingsList:hover{
+    @apply border-emerald-200	shadow-emerald-200
+}
+
+
+
 .navbarproduct{
     @apply text-center mt-10
 }
 .navbarproduct1{
     @apply text-center mt-10
 }
-
-
-
 
 .btn1{
 @apply bg-emerald-50 hover:bg-emerald-100 text-gray-800 font-semibold h-7 w-16 border border-gray-400 rounded shadow

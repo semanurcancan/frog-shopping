@@ -1,9 +1,7 @@
 import React from 'react'
 import "./home.css";
-
 import { useSelector } from 'react-redux';
 import { selectProduct } from '../productList/productSlice';
-
 
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -11,8 +9,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import negateValue from "tailwindcss/lib/util/negateValue";
-
 
 function SwiperLine() {
     const productSwiper = useSelector(selectProduct);

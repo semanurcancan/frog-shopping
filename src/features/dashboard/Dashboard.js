@@ -25,10 +25,10 @@ function Dashboard() {
                         <li className='link'><Link className='flex' to="/home"> <HiOutlineHome/> Home</Link></li>
                         <li className='link'><Link className='flex' to="/admin/product"><GiClothes/> Product</Link></li>
                         <li className='link'><Link className='flex' to="/user">< TbUsers/>Customer</Link></li>
+                        <li className='link'><Link className='flex' to="/*"><GiMailbox/>Contact</Link></li>
                         <li className='link'><Link className='flex' to="/*"><TbTruckLoading/>Stocks</Link></li>
                         <li className='link'><Link className='flex' to="/*"><GrNotes/>Notes</Link></li>
                         <li className='link'><Link className='flex' to="/*"><DiBintray/>Suppliers</Link></li>
-                        <li className='link'><Link className='flex' to="/*"><GiMailbox/>Contact</Link></li>
                     </ul>
                 </div>
             </div>

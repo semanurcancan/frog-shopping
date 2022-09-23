@@ -41,7 +41,8 @@ function ProductAdd(props) {
     <div className='productAddContainer'>
       <Dashboard />
       <div className='admin-product'>
-        <div className='items-center	 border-2 shadow-md flex justify-evenly rounded-2xl border-emerald-100/75 mt-8 h-20 '>
+        <div className='items-center border-2 shadow-md pt-3 rounded-2xl border-emerald-100/75 grid grid-cols-3 gap-4 mt-4 h-auto mb-5 sm:mt-8 md:h-20 md:flex md:justify-evenly 
+        hover:border-emerald-200	shadow-emerald-300 justify-items-center		'>
           <label>
             <select className="rounded-md border-1 focus:outline-none shadow-xl bg-white w-20 h-10" ref={selectOption}>
               <option value="NIKE" >NIKE</option>
@@ -66,7 +67,7 @@ function ProductAdd(props) {
               <option value="dress">dress</option>
             </select>
           </label>
-          <button className=" bg-transparent hover:bg-gray-200 text-green-300 font-semibold hover:text-white py-2 px-4 border border-green-200 hover:border-transparent rounded h-10" type="button" value="ekle" onClick={() => addProduct()}>ADD</button>
+          <button className="col-span-3 bg-transparent hover:bg-gray-200 text-green-300 font-semibold hover:text-white h-10 w-14 md:py-2 md:px-4 border border-green-200 hover:border-transparent rounded md:h-10" type="button" value="ekle" onClick={() => addProduct()}>ADD</button>
         
         </div>
         <div>

@@ -11,10 +11,10 @@ import ProductAdmin from './features/productList/ProductAdmin';
 import ProductDetail from './features/productList/ProductDetail';
 import ProductAdd from './features/productList/ProductAdd';
 
-
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import User from './features/user/User';
+import { Login } from './features/login/Login';
 const container = document.getElementById('root');
 const root = createRoot(container);
 
@@ -29,7 +29,7 @@ root.render(
         <Route path="user" element={<User />} />
         <Route path="notes" element={<Home />} />
         <Route path="productsAdd" element={<ProductAdd />} />
-
+        <Route path="login" element={<Admin />} />
         <Route path='products/:productsId' element={<ProductDetail />} >
         </Route>
         <Route

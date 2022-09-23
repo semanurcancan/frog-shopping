@@ -4,9 +4,9 @@
 
 
 .dashboard{
-    @apply  p-2.5 border-r-4 border-green-100 w-screen h-24  bg-emerald-100 shadow-lg shadow-emerald-200
-    
-     
+    @apply  p-2.5 border-r-4 border-green-100 w-screen h-28 bg-emerald-100 shadow-lg shadow-emerald-200 
+     sm:h-24 sm:flex sm:items-center sm:justify-between	
+     lg:block	
     lg:w-36 lg:h-full
 }   
 .D-title{
@@ -19,14 +19,17 @@
 }
 
 .Link{
-    @apply  text-green-900 flex justify-end	
-     md:flex md:justify-end	md:m-5
-     lg:inline-table	
+    @apply  text-green-900 grid grid-cols-4 grid-flow-row
+    sm:flex sm:justify-end	
+     md:flex md:justify-end	md:mt-5
+     lg:inline-table
 }
 .link{
-    @apply  flex text-center
+    @apply  flex text-center text-sm
+    lg:text-lg
     sm:mr-3 md:mr-5 lg:mb-8
 }
+
 .frog-das{
      @apply   h-8 w-8
      sm:inline-flex sm:h-7 sm:w-7 
