@@ -12,18 +12,22 @@ export function Login() {
     const checkLogin = () => {
         if (name.current.value == "test" && password.current.value == "test") {
             dispatch(userInfos({ login: true }))
-
         }
-
     }
+    const handleKeyDown = (event) => {
+        if (event.key === 'Enter') {
+            checkLogin()
+        }
+    }
+
     return (
         <div className='allpage '>
             <div className='login '>
                 <div className='flex flex-col justify-center bg-green-100'>
                     <a className=' text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-violet-500'>ADMIN LOGIN</a>
                     <ul>
-                        <li><input placeholder='Full Name' className='text-sm focus: outline-none focus:outline-gray-200' type="text" ref={name} /></li>
-                        <li><input placeholder='Password' className='text-sm focus: outline-none focus:outline-gray-200' type="password" ref={password} /></li>
+                        <li><input placeholder='Full Name' className='text-sm focus: outline-none focus:outline-gray-200' type="text" onKeyDown={handleKeyDown} ref={name} /></li>
+                        <li><input placeholder='Password' className='text-sm focus: outline-none focus:outline-gray-200' type="password" onKeyDown={handleKeyDown} ref={password} /></li>
                         <br></br>
                         <li><button className='bg-white  text-gray-800 font-semibold py-1 px-2 border border-gray-200 focus:outline-gray-200 rounded shadow text-xl bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-violet-500'
                             onClick={() => checkLogin()}>Submit</button></li>
