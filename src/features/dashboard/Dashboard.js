@@ -29,6 +29,7 @@ function Dashboard() {
                         <li className='link'><Link className='flex' to="/*"><TbTruckLoading/>Stocks</Link></li>
                         <li className='link'><Link className='flex' to="/*"><GrNotes/>Notes</Link></li>
                         <li className='link'><Link className='flex' to="/*"><DiBintray/>Suppliers</Link></li>
+                        
                     </ul>
                 </div>
             </div>

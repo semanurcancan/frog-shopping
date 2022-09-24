@@ -83,7 +83,7 @@ function ProductAdd(props) {
                         <div className='flex flex-wrap justify-center'>
                           <div className='w-1/2 sm:w-4/12 '>
                             <Link to={`/products/${value.id}`}>
-                              <img className='shadow-lg rounded-full max-w-full h-auto align-middle border-none' src={value.img} width={75} alt='1.resim' />
+                              <img className='shadow-lg rounded-full max-w-full h-auto align-middle border-none' src={value.img} width={50} alt='1.resim' />
                             </Link>
                           </div>
                         </div>
