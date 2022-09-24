@@ -13,7 +13,7 @@ import { Outlet, Link } from "react-router-dom";
 
 function Dashboard() {
     return (
-        <div>
+        <div className=''>
             <div className='dashboard'>
                 <div className='frog-title'>
                     <img className='frog-das' src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/344/external-frog-jungle-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png" alt="..." />

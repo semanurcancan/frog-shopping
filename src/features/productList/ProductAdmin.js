@@ -16,7 +16,7 @@ function ProductAdmin() {
 
 
   return (
-    <div className='admin-productContainer'>
+    <div className='productAddContainer'>
       <Dashboard />
 
       <div className='admin-product'>

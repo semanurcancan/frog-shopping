@@ -35,25 +35,28 @@ shadow-2xl
     @apply text-white bg-gradient-to-r from-green-300 to-cyan-200 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-green-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2
 
 }
-.admin-productContainer{
-    @apply h-full w-screen lg:flex bg-green-50
-}
-.admin-product{
-    @apply h-screen w-screen  bg-green-50 text-xs  grid grid-cols-1 grid-flow-row 
-}
 
 .productAddContainer{
-    @apply w-screen text-left  block
+    @apply h-auto w-screen  bg-green-50 text-left  block
     lg:flex
 }
-.product-list{
-    @apply  contents mt-10 mb-20 shadow-inner space-y-5
-     md:w-screen md:ml-20
-     xl:w-screen xl:mt-14
+
+.admin-product{
+    @apply w-screen  bg-green-50 text-xs  grid grid-cols-1 grid-flow-row 
 }
 
+
+.product-list{
+    @apply  contents mt-10 mb-20 shadow-inner space-y-5
+    
+     md:w-3/4 
+     xl:w-4/5 xl:mt-14
+}
+
+
+
 .settingsList{
-    @apply   justify-evenly	items-center grid grid-cols-6 h-20 border-2 border-emerald-200/50 w-screen
+    @apply   justify-evenly	items-center grid grid-cols-6 h-20 border-2 border-emerald-200/50 w-full
     shadow-xl shadow-emerald-200/50 rounded-xl relative duration-500
 }
 .settingsList:hover{
