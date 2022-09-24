@@ -36,24 +36,21 @@ shadow-2xl
 
 }
 .admin-productContainer{
-    @apply h-full w-full lg:flex bg-green-50 
+    @apply h-full w-screen lg:flex bg-green-50
 }
 .admin-product{
-    @apply w-screen h-full bg-green-50  grid grid-cols-1 grid-flow-row 
+    @apply h-screen w-screen  bg-green-50 text-xs  grid grid-cols-1 grid-flow-row 
 }
 
 .productAddContainer{
-    @apply text-left  block
+    @apply w-screen text-left  block
     lg:flex
 }
 .product-list{
     @apply  contents mt-10 mb-20 shadow-inner space-y-5
-    
-     md:w-3/4 md:ml-20
-     xl:w-4/5 xl:mt-14
+     md:w-screen md:ml-20
+     xl:w-screen xl:mt-14
 }
-
-
 
 .settingsList{
     @apply   justify-evenly	items-center grid grid-cols-6 h-20 border-2 border-emerald-200/50 w-screen

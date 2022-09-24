@@ -20,8 +20,6 @@ function ProductAdmin() {
       <Dashboard />
 
       <div className='admin-product'>
-      
-
         <div className='text-center'>
           <Link to={`/productsAdd`}>
             <button className=' bg-green-100 bg-gradient-to-r from-green-500 to-violet-500  text-center p-3 mt-10 text-xl
