@@ -20,6 +20,10 @@
 - admin performs the product deletion and addition process from the product page.
 - newly added product id is given uniquely.
 
+## LOGIN INFO
+userName: test
+password: test
+
 
 ## Install
 ```javascrıpt
